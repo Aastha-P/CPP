@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int x, y, Add, Sub, Multi, Div;
+
+    cout << "Enter value of x= ";
+    cin >> x;
+    cout << "Enter value of y= ";
+    cin >> y;
+
+    Add = x + y;
+    cout << "Addition of numbers= " << Add << endl;
+
+    Sub = x - y;
+    cout << "Substraction of numbers= " << Sub << endl;
+
+    Multi = x * y;
+    cout << "Multiplication of numbers= " << Multi << endl;
+
+    Div = x / y;
+    cout << "Division of numbers= " << Div << endl;
+
+    return 0;
+}
