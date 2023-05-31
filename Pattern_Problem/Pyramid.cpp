@@ -2,18 +2,20 @@
 
 int main()
 {
-    int rows = 5;
+     int rows;
+    cout << "Enter number of rows: ";
+    cin >> rows;
 
-    for (int i = 0; i < rows; i++)
+    for (int i = 0; i <= rows; i++)
     {  
-        for (int j = 0; j < 2 * (rows - i) - 1; j++)
+        for (int j = rows; j>=i; j--)
         {
             printf(" ");
         }
 
-        for (int k = 0; k < 2 * i + 1; k++)
+        for (int k = 0; k < (2 * i) + 1; k++)
         {
-            printf("* ");
+            printf("*");
         }
         printf("\n");
     }
