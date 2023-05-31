@@ -2,22 +2,22 @@
 
 int main()
 {
-     int rows;
-    cout << "Enter number of rows: ";
-    cin >> rows;
+     int r, i, j, k;
+    cout << "Enter rows: ";
+    cin >> r;
 
-    for (int i = 0; i <= rows; i++)
-    {  
-        for (int j = rows; j>=i; j--)
+    for (i = r; i >= 1; i--)
+    {
+        for (j = r - i; j > 0; j--)
         {
-            printf(" ");
+            cout << " ";
         }
 
-        for (int k = 0; k < (2 * i) -1; k++)
+        for (k = i; k > 0; k--)
         {
-            printf("*");
+            cout << "* ";
         }
-        printf("\n");
+        cout << endl;
     }
     return 0;
 }
