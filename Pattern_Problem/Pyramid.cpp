@@ -1,21 +1,26 @@
-#include <stdio.h>
+#include <iostream>
+using namespace std;
 
 int main()
 {
-     int r, i, j, k;
-    cout << "Enter rows: ";
-    cin >> r;
+    int rows;
+    cout << "Enter number of rows: ";
+    cin >> rows;
 
-    for (i = r; i >= 1; i--)
+    // first loop to print all rows
+    for (int i = 1; i <= rows; i++)
     {
-        for (j = r - i; j > 0; j--)
+
+        // inner loop 1 to print white spaces
+        for (int j = 1; j <= rows - i; j++)
         {
             cout << " ";
         }
 
-        for (k = i; k > 0; k--)
+        // inner loop 2 to print star * character
+        for (int k = 0; k < 2 * i - 1; k++)
         {
-            cout << "* ";
+            cout"*";
         }
         cout << endl;
     }
