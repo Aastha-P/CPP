@@ -12,8 +12,9 @@ int main()
     {
         for (int j = 1; j <= m; j++)
         {
-            printf(" * ");
+            cout<<" * ";
         }
-        printf("\n");
+        cout<<endl;
     }
+    return 0;
 }
