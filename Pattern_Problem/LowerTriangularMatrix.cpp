@@ -10,10 +10,10 @@ int main()
         for (int j = 1; j <= n; j++)
         {
             if (i > j)
-                printf(" * ");
+                cout<<" * ";
             else
-                printf("   ");
+                cout<<"   ";
         }
-        printf("\n");
+        cout<<"\n";
     }
 }
