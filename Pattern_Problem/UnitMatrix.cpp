@@ -10,9 +10,9 @@ int main()
         for (int j = 1; j <= n; j++)
         {
             if (i == j)
-                cout" 1 ";
+                cout<<" 1 ";
             else
-                printf(" 0 ");
+                cout<<" 0 ";
         }
         cout<<"\n";
     }
