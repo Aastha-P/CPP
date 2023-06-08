@@ -10,7 +10,7 @@ int main()
         for (int j = 1; j <= n; j++)
         {
             if (i == j)
-                printf(" 1 ");
+                cout" 1 ";
             else
                 printf(" 0 ");
         }
