@@ -14,6 +14,6 @@ int main()
             else
                 printf(" 0 ");
         }
-        printf("\n");
+        cout<<"\n";
     }
 }
